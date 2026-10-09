@@ -1,0 +1,21 @@
+{
+  "name": "redmghost-mods",
+  "owner": {
+    "name": "aleumest"
+  },
+  "metadata": {
+    "description": "Claude Code mods: an agent dashboard and a Haiku/Opus model router."
+  },
+  "plugins": [
+    {
+      "name": "agent-dashboard",
+      "source": "./mods/agent-dashboard",
+      "description": "A live pane showing what your subagents and teammates are doing; open it with /dashboard."
+    },
+    {
+      "name": "model-router",
+      "source": "./mods/model-router",
+      "description": "Sends simple requests (typos, renames, tidying) to Haiku and keeps the rest on your main model."
+    }
+  ]
+}

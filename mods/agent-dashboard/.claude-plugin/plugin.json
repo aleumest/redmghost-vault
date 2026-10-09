@@ -1,0 +1,9 @@
+{
+  "name": "agent-dashboard",
+  "version": "0.1.0",
+  "description": "A live pane showing what your subagents and teammates are doing; open it with /dashboard.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "aleumest"
+  }
+}
